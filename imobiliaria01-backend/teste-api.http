@@ -1,0 +1,10 @@
+### Cadastrar um novo imóvel
+POST http://localhost:8080/imoveis
+Content-Type: application/json
+
+{
+  "titulo": "Apartamento no Centro",
+  "descricao": "Ótima localização, sol da manhã",
+  "preco": 350000.00,
+  "quartos": 2
+}
