@@ -26,4 +26,17 @@ public class Imovel {
     private Double preco;
 
     private Integer quartos;
+
+    // --- Adicao N01 de Campos
+
+    private Double areaTotal;
+
+    private String endereco;
+
+    private String bairro;
+
+    private String Cidade;
+
+    // Status para dizer se está disponível, vendido ou alugado
+    private String status;
 }
